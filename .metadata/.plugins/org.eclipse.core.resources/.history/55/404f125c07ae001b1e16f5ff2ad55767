@@ -1,0 +1,4 @@
+module homework_1 {
+	
+	Course course1 = new Course();
+}

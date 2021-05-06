@@ -1,0 +1,26 @@
+package homework_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	Course course1 =  new Course(1,"C#","Başlangıç Seviyesi Temel C# kursu");
+	Course course2 =  new Course(1,"C#","Orta Seviye C# kursu");
+	
+	Student student1 = new Student(1,"Ali","Kara");
+	Student student2 = new Student(2,"Veli","Kara");
+	
+	Student[] students= {student1,student2};
+	
+	CourseManager courseManager = new CourseManager();
+	
+	for(Student student:students) {
+		
+		courseManager.JoinCourse(student,course1);
+		courseManager.JoinCourse(student,course2);
+	}
+	
+	
+	}
+
+}

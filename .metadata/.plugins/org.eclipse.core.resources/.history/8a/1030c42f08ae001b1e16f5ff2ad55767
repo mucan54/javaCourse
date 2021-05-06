@@ -1,0 +1,12 @@
+package homework_1;
+
+public class Main {
+
+	Course course1 =  new Course(1,"C#","Başlangıç Seviyesi Temel C# kursu.");
+	Course course2 =  new Course(1,"C#","Orta Seviye C# kursu.");
+	
+	Student student1 = new Student(1,"Ali","Kara");
+	Student student2 = new Student(2,"Veli","Kara");
+	
+
+}
